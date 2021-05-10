@@ -4,7 +4,7 @@
     command = "# no build command"
 
 [[redirects]]
-    from = "/saved-banners"
-    to = "/.netlify/functions/svg-banner"
+    from = "/saved-banners/:text"
+    to = "/.netlify/functions/svg-banner/:text"
     status = 200
     force = true

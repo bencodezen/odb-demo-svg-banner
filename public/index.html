@@ -27,7 +27,7 @@
                       contenteditable
                       @input="updateBannerText"
                     >
-                      {{ bannerText }}
+                      {{ bannerTitle }}
                     </h1>
                     <h2
                       xmlns="http://www.w3.org/1999/xhtml"
@@ -131,15 +131,15 @@
       const App = {
         data: () => ({
           currentTime: new Date().toString(),
-          bannerText:
+          bannerTitle:
             'All of this text is editable... click on it and start typing!',
           bookmarks: []
         }),
         methods: {
           addBookmark() {
             this.bookmarks.push({
-              text: this.bannerText,
-              url: `/saved-banners?text=${this.bannerText}`
+              text: this.bannerTitle,
+              url: `/saved-banners/${this.bannerTitle}`
             })
           },
           updateBannerText(e) {

@@ -8,7 +8,7 @@ async function handler(event) {
   console.log({ pathParts })
 
   const time = new Date().toString()
-  const title = event.queryStringParameters.text
+  const title = decodeURI(pathParts[2])
   const siteId = process.env.SITE_ID
 
   console.log(`Time: ${time} - ${siteId}`)

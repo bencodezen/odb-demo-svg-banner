@@ -1,7 +1,7 @@
 {
   "name": "svg-generator",
   "version": "1.0.0",
-  "description": "**Deployed Site Link**: https://festive-hawking-3ee26f.netlify.app/",
+  "description": "**Deployed Site Link**: https://odb-demo-svg-banner.netlify.app/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
