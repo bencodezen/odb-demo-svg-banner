@@ -1,11 +1,22 @@
 {
   "name": "svg-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Deployed Site Link**: https://festive-hawking-3ee26f.netlify.app/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Ben Hong",
+  "license": "MIT",
+  "devDependencies": {
+    "@netlify/functions": "^0.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencodezen/odb-demo-svg-banner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bencodezen/odb-demo-svg-banner/issues"
+  },
+  "homepage": "https://github.com/bencodezen/odb-demo-svg-banner#readme"
 }
