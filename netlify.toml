@@ -1,0 +1,10 @@
+[build]
+    publish = "public"
+    functions = "functions"
+    command = "# no build command"
+
+[[redirects]]
+    from = "/saved-banners"
+    to = "/.netlify/functions/svg-banner"
+    status = 200
+    force = true
