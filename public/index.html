@@ -25,7 +25,7 @@
                       xmlns="http://www.w3.org/1999/xhtml"
                       class="social-image__title"
                       contenteditable
-                      @input="updateBannerText"
+                      @input="updateBannerTitle"
                     >
                       {{ bannerTitle }}
                     </h1>
@@ -142,8 +142,8 @@
               url: `/saved-banners/${this.bannerTitle}`
             })
           },
-          updateBannerText(e) {
-            this.bannerText = e.target.innerText
+          updateBannerTitle(e) {
+            this.bannerTitle = e.target.innerText
           }
         }
       }
