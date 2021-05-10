@@ -1,6 +1,6 @@
 # SVG Banner Generator
 
-**Deployed Site Link**: https://festive-hawking-3ee26f.netlify.app/
+**Deployed Site Link**: https://odb-demo-svg-banner.netlify.app/
 
 This site uses builder functions to allow dynamically generating a SVG banner based on text that the user updates.
 
